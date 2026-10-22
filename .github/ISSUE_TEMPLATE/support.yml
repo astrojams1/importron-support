@@ -1,0 +1,18 @@
+name: Support
+description: Get help with Importron without sharing medical data.
+title: "Support: "
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not upload lab PDFs, patient details, screenshots of real results, or medical information."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the app behavior without medical details.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version and iOS version
